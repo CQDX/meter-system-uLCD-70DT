@@ -358,20 +358,6 @@ WinButton
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-AniButton
-    Name                         Anibutton0
-    Alias                        Anibutton0
-    Height                       253
-    Images                       skullcracka_250_0010_Layer-0-copy-10.png\nskullcracka_250_0009_Layer-1-copy-9.png\nskullcracka_250_0008_Layer-1-copy-8.png\nskullcracka_250_0007_Layer-1-copy-7.png\nskullcracka_250_0006_Layer-1-copy-6.png\nskullcracka_250_0005_Layer-1-copy-5.png\nskullcracka_250_0004_Layer-1-copy-4.png\nskullcracka_250_0003_Layer-1-copy-3.png
-    Interval                     100
-    Left                         276
-    Matrix                       1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          114
-    Width                        247
-    OnChanged                    Form5Activate
-end
 Strings
     Name                         Strings2
     Alias                        Strings2
