@@ -13,8 +13,5 @@ A 4D Workshop user interface targetting a uLCD-70DT touch display. The user inte
 <h2>Power Supply and Current Measurements</h2>
 <img src="https://github.com/CQDX/meter-system-uLCD-70DT/blob/master/Meter-System-uLCD-70DT/MeterSystem.ImgData/EPD%20Voltage%20and%20Current%20Measurements%20-%20Copy.png">
 
-<h2>Power Supply and Current Measurements</h2>
-<img src="https://github.com/CQDX/meter-system-uLCD-70DT/blob/master/Meter-System-uLCD-70DT/MeterSystem.ImgData/EPD%20Voltage%20and%20Current%20Measurements%20-%20Copy.png">
-
 <h2> LDMOS Gate and Drain Measurements</h2>
 <img src="https://github.com/CQDX/meter-system-uLCD-70DT/blob/master/Meter-System-uLCD-70DT/MeterSystem.ImgData/LDMOS%20Drain%20Voltage%20and%20Gate%20Current%20Measurements%20-%20Copy.png">
