@@ -1,0 +1,1873 @@
+﻿Version     0.0
+Platform    uLCD-70DT-L
+PlatRes     480x800
+Depends
+end
+Options
+    Genie
+    Speed                        115200
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 Yes
+end
+Form
+    Name                         Form0
+    Alias                        Form0
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton0
+    Alias                        Winbutton0
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      'Dual Line Section'
+    Color                        GRAY
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         10
+    Matrix                       1
+    Momentary                    No
+    Picture                      DualLineSection.png
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          10
+    Width                        250
+    OnChanged                    Form1Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton1
+    Alias                        Winbutton1
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      'Deck Temps'
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         10
+    Matrix                       1
+    Momentary                    No
+    Picture                      AD8495.png
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          144
+    Width                        250
+    OnChanged                    Form2Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton2
+    Alias                        Winbutton2
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      'EPD Primary'
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         540
+    Matrix                       1
+    Momentary                    No
+    Picture                      EPD.png
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          10
+    Width                        250
+    OnChanged                    Form3Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton3
+    Alias                        Winbutton3
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      LDMOS
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         540
+    Matrix                       1
+    Momentary                    No
+    Picture                      BLF578XR.png
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          144
+    Width                        250
+    OnChanged                    Form4Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton4
+    Alias                        Winbutton4
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      'Shut Down Host'
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         540
+    Matrix                       1
+    Momentary                    No
+    Picture                      Pi.png
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          280
+    Width                        250
+    OnChanged                    'Report Message'
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings0
+    Alias                        Strings0
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       75
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI'
+    Font.Opaque                  Yes
+    Font.Size                    32
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         35
+    Strings                      'Waiting to connect to host...\n'
+    StringsStyle                 Book
+    Top                          400
+    Width                        730
+    OnChanged                    ''
+end
+MagicCode
+    Name                         MagicCode0
+    Alias                        MagicCode0
+    Code                         MagicCode0.inc
+    InsertPoint                  Constant/Global/Data
+end
+MagicObject
+    Name                         MagicObject0
+    Alias                        MagicObjectUnsignedForwardPowerDigits0
+    Code                         MagicObject0.inc
+end
+MagicObject
+    Name                         MagicObject1
+    Alias                        MagicObjectUnsignedRelfectedPowerDigits1
+    Code                         MagicObject1.inc
+end
+WinButton
+    Name                         Winbutton5
+    Alias                        Winbutton5
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      'Reboot Host'
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         10
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      PiBottom.png
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          280
+    Width                        250
+    OnChanged                    'Report Message'
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+AniButton
+    Name                         Anibutton0
+    Alias                        Anibutton0
+    Height                       253
+    Images                       skullcracka_250_0010_Layer-0-copy-10.png\nskullcracka_250_0009_Layer-1-copy-9.png\nskullcracka_250_0008_Layer-1-copy-8.png\nskullcracka_250_0007_Layer-1-copy-7.png\nskullcracka_250_0006_Layer-1-copy-6.png\nskullcracka_250_0005_Layer-1-copy-5.png\nskullcracka_250_0004_Layer-1-copy-4.png\nskullcracka_250_0003_Layer-1-copy-3.png
+    Interval                     100
+    Left                         276
+    Matrix                       1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          114
+    Width                        247
+    OnChanged                    Form5Activate
+end
+Strings
+    Name                         Strings2
+    Alias                        Strings2
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       40
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         737
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          440
+    Width                        63
+    OnChanged                    ''
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Meter
+    Name                         Meter0
+    Alias                        Meter0
+    Angle                        36
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             3
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Lowered
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Caption                      WATTS
+    Color                        GHOSTWHITE
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       160
+    LabelOffsetX                 15
+    LabelOffsetY                 15
+    Labels                       5
+    Left                         455
+    Maxvalue                     100
+    Minvalue                     0
+    NeedleColor                  BLACK
+    NeedleWidth                  3
+    Scale.Color1                 BLACK
+    Scale.Color2                 BLACK
+    Scale.Color3                 BLACK
+    Scale.Enlarge                5
+    Scale.Heightmax              27
+    Scale.Heightmin              15
+    Scale.Percent1               20
+    Scale.Percent2               20
+    Scale.Ticks                  51
+    Scale.Visible                Yes
+    Spacing                      30
+    Top                          100
+    Width                        330
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Meter
+    Name                         Meter1
+    Alias                        Meter1
+    Angle                        36
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             3
+    Bevel.OuterColor             0xF0F0F0
+    Bevel.OuterHighlight         WHITE
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            0xA0A0A0
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Lowered
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Caption                      WATTS
+    Color                        GHOSTWHITE
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       160
+    LabelOffsetX                 15
+    LabelOffsetY                 15
+    Labels                       5
+    Left                         16
+    Maxvalue                     100
+    Minvalue                     0
+    NeedleColor                  BLACK
+    NeedleWidth                  3
+    Scale.Color1                 BLACK
+    Scale.Color2                 BLACK
+    Scale.Color3                 BLACK
+    Scale.Enlarge                5
+    Scale.Heightmax              27
+    Scale.Heightmin              15
+    Scale.Percent1               20
+    Scale.Percent2               20
+    Scale.Ticks                  51
+    Scale.Visible                Yes
+    Spacing                      30
+    Top                          100
+    Width                        330
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+4Dbutton
+    Name                         4Dbutton0
+    Alias                        4Dbutton0
+    Height                       120
+    Left                         340
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Green
+    Top                          308
+    Type                         Rocker01
+    Width                        120
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext1
+    Alias                        Statictext1
+    AutoSize                     Yes
+    Caption                      Average
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    16
+    Font.Style                   []
+    Height                       30
+    Left                         366
+    Top                          445
+    Transparent                  Yes
+    Width                        76
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext2
+    Alias                        Statictext2
+    AutoSize                     Yes
+    Caption                      Peak
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    16
+    Font.Style                   []
+    Height                       30
+    Left                         381
+    Top                          268
+    Transparent                  Yes
+    Width                        43
+    WordWrap                     Yes
+end
+WinButton
+    Name                         Winbutton6
+    Alias                        Winbutton6
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Back
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Symbol'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       45
+    Left                         15
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          5
+    Width                        125
+    OnChanged                    Form0Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits0
+    Alias                        Leddigits0
+    Color                        BLACK
+    Decimals                     2
+    Digits                       8
+    Height                       65
+    LeadingZero                  Yes
+    Left                         462
+    OutlineColor                 BLACK
+    Palette.High                 LIMEGREEN
+    Palette.Low                  BLACK
+    Top                          309
+    Width                        320
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits1
+    Alias                        Leddigits1
+    Color                        BLACK
+    Decimals                     2
+    Digits                       8
+    Height                       65
+    LeadingZero                  Yes
+    Left                         18
+    OutlineColor                 BLACK
+    Palette.High                 CRIMSON
+    Palette.Low                  BLACK
+    Top                          309
+    Width                        320
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings3
+    Alias                        Strings3
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       85
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI'
+    Font.Opaque                  Yes
+    Font.Size                    40
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         15
+    Strings                      'RL 0 dB\nVSWR 0\n'
+    StringsStyle                 Book
+    Top                          387
+    Width                        300
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton1
+    Alias                        4Dbutton1
+    Height                       48
+    Left                         737
+    Matrix                       1
+    Momentary                    No
+    Size                         48x48
+    Style                        Yellow
+    Top                          400
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    AutoSize                     Yes
+    Caption                      100W
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         740
+    Top                          455
+    Transparent                  Yes
+    Width                        42
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton2
+    Alias                        4Dbutton2
+    Height                       48
+    Left                         662
+    Matrix                       1
+    Momentary                    No
+    Size                         48x48
+    Style                        Yellow
+    Top                          400
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext4
+    Alias                        Statictext4
+    AutoSize                     Yes
+    Caption                      1KW
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         670
+    Top                          455
+    Transparent                  Yes
+    Width                        33
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton3
+    Alias                        4Dbutton3
+    Height                       48
+    Left                         591
+    Matrix                       1
+    Momentary                    No
+    Size                         48x48
+    Style                        Yellow
+    Top                          400
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    AutoSize                     Yes
+    Caption                      10KW
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         594
+    Top                          455
+    Transparent                  Yes
+    Width                        42
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton4
+    Alias                        4Dbutton4
+    Height                       48
+    Left                         520
+    Matrix                       1
+    Momentary                    No
+    Size                         48x48
+    Style                        Yellow
+    Top                          400
+    Type                         Button01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext6
+    Alias                        Statictext6
+    AutoSize                     Yes
+    Caption                      100KW
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         519
+    Top                          455
+    Transparent                  Yes
+    Width                        51
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext8
+    Alias                        Statictext8
+    AutoSize                     Yes
+    Caption                      'Forward Power'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    16
+    Font.Style                   []
+    Height                       30
+    Left                         545
+    Top                          268
+    Transparent                  Yes
+    Width                        150
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext9
+    Alias                        Statictext9
+    AutoSize                     Yes
+    Caption                      'Reflected Power'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    16
+    Font.Style                   []
+    Height                       30
+    Left                         105
+    Top                          268
+    Transparent                  Yes
+    Width                        150
+    WordWrap                     Yes
+end
+Form
+    Name                         Form2
+    Alias                        Form2
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton7
+    Alias                        Winbutton7
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Back
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Symbol'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       40
+    Left                         25
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          430
+    Width                        120
+    OnChanged                    Form0Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings4
+    Alias                        Strings4
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI'
+    Font.Opaque                  Yes
+    Font.Size                    20
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         230
+    Strings                      'Upper Deck Temp Channel 3 AD8495 K-Type\n'
+    StringsStyle                 Message
+    Top                          168
+    Width                        340
+    OnChanged                    ''
+end
+LedDigits
+    Name                         Leddigits2
+    Alias                        Leddigits2
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       40
+    LeadingZero                  No
+    Left                         351
+    OutlineColor                 BLACK
+    Palette.High                 AQUA
+    Palette.Low                  BLACK
+    Top                          115
+    Width                        100
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits3
+    Alias                        Leddigits3
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       40
+    LeadingZero                  No
+    Left                         350
+    OutlineColor                 BLACK
+    Palette.High                 AQUA
+    Palette.Low                  BLACK
+    Top                          344
+    Width                        100
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings5
+    Alias                        Strings5
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI'
+    Font.Opaque                  Yes
+    Font.Size                    20
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         200
+    Strings                      'Upper Deck Temp Channel 4 Select TMP36 or AD8495\n\n'
+    StringsStyle                 Message
+    Top                          408
+    Width                        400
+    OnChanged                    ''
+end
+Thermometer
+    Name                         Thermometer0
+    Alias                        Thermometer0
+    Caption                      '°C or °F'
+    Color                        BLACK
+    ColorAfter                   0x000051
+    ColorBefore                  ORANGERED
+    Direction                    Horizontal
+    Font.Color                   AQUA
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       100
+    Left                         13
+    Scale.Color                  AQUA
+    Scale.Decimals               0
+    Scale.Heightmax              20
+    Scale.Heightmin              5
+    Scale.Max                    400
+    Scale.Min                    0
+    Scale.Offset                 10
+    Scale.Position               After
+    Scale.ScaleType              Linear
+    Scale.SmallStep              5
+    Scale.Step                   25
+    Scale.Visible                Yes
+    Setpoint.Bitmap              (None)
+    Setpoint.Color               MEDIUMVIOLETRED
+    Setpoint.Shape               Triangle
+    Setpoint.Value               150
+    Setpoint.Visible             Yes
+    ShowCaption                  Yes
+    Top                          5
+    Value.Bitmap                 (None)
+    Value.Color                  clAqua
+    Value.Shape                  Line
+    Value.Value                  100
+    Value.Visible                Yes
+    Width                        775
+    OnChanged                    ''
+end
+Thermometer
+    Name                         Thermometer1
+    Alias                        Thermometer1
+    Caption                      '°C or °F'
+    Color                        BLACK
+    ColorAfter                   0x000051
+    ColorBefore                  clRed
+    Direction                    Horizontal
+    Font.Color                   AQUA
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       100
+    Left                         13
+    Scale.Color                  AQUA
+    Scale.Decimals               0
+    Scale.Heightmax              20
+    Scale.Heightmin              10
+    Scale.Max                    125
+    Scale.Min                    0
+    Scale.Offset                 20
+    Scale.Position               After
+    Scale.ScaleType              Linear
+    Scale.SmallStep              1
+    Scale.Step                   10
+    Scale.Visible                Yes
+    Setpoint.Bitmap              (None)
+    Setpoint.Color               YELLOWGREEN
+    Setpoint.Shape               Triangle
+    Setpoint.Value               55
+    Setpoint.Visible             Yes
+    ShowCaption                  Yes
+    Top                          225
+    Value.Bitmap                 (None)
+    Value.Color                  clAqua
+    Value.Shape                  Line
+    Value.Value                  100
+    Value.Visible                Yes
+    Width                        775
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    AutoSize                     Yes
+    Caption                      'TMP36 ±2°C for -40°C to 150°C with ±0.5°C linearity'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       17
+    Left                         25
+    Top                          348
+    Transparent                  Yes
+    Width                        303
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton5
+    Alias                        4Dbutton5
+    Height                       64
+    Left                         612
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Aqua
+    Top                          386
+    Type                         Rocker01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext11
+    Alias                        Statictext11
+    AutoSize                     Yes
+    Caption                      'AD8495 ± 2°C for −25°C to +400°C'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       17
+    Left                         25
+    Top                          375
+    Transparent                  Yes
+    Width                        206
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext0
+    Alias                        Statictext0
+    AutoSize                     Yes
+    Caption                      TMP36
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         615
+    Top                          348
+    Transparent                  Yes
+    Width                        49
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext10
+    Alias                        Statictext10
+    AutoSize                     Yes
+    Caption                      'AD8495  K-Type'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         577
+    Top                          453
+    Transparent                  Yes
+    Width                        112
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext12
+    Alias                        Statictext12
+    AutoSize                     Yes
+    Caption                      'Note: Channel 3 and Channel 4 on breakout  board must be connected to selected sensor.'
+    Color                        BLACK
+    Font.Color                   GHOSTWHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       102
+    Left                         700
+    Top                          367
+    Transparent                  Yes
+    Width                        94
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext13
+    Alias                        Statictext13
+    AutoSize                     Yes
+    Caption                      °F
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         637
+    Top                          108
+    Transparent                  Yes
+    Width                        14
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext14
+    Alias                        Statictext14
+    AutoSize                     Yes
+    Caption                      °C
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         636
+    Top                          204
+    Transparent                  Yes
+    Width                        16
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton6
+    Alias                        4Dbutton6
+    Height                       64
+    Left                         612
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Red
+    Top                          136
+    Type                         Rocker01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+Form
+    Name                         Form3
+    Alias                        Form3
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton8
+    Alias                        Winbutton8
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Back
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Symbol'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         20
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          10
+    Width                        120
+    OnChanged                    Form0Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Meter
+    Name                         Meter2
+    Alias                        Meter2
+    Angle                        35
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Caption                      VOLTS
+    Color                        CORNSILK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       160
+    LabelOffsetX                 15
+    LabelOffsetY                 15
+    Labels                       5
+    Left                         20
+    Maxvalue                     200
+    Minvalue                     0
+    NeedleColor                  BLACK
+    NeedleWidth                  2
+    Scale.Color1                 BLACK
+    Scale.Color2                 BLACK
+    Scale.Color3                 BLACK
+    Scale.Enlarge                5
+    Scale.Heightmax              25
+    Scale.Heightmin              15
+    Scale.Percent1               50
+    Scale.Percent2               50
+    Scale.Ticks                  51
+    Scale.Visible                Yes
+    Spacing                      28
+    Top                          160
+    Width                        330
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings6
+    Alias                        Strings6
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       25
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI Semibold'
+    Font.Opaque                  Yes
+    Font.Size                    20
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         5
+    Strings                      'EPD Transformer Primary Voltage Channel 5\n'
+    StringsStyle                 Message
+    Top                          105
+    Width                        360
+    OnChanged                    ''
+end
+Meter
+    Name                         Meter3
+    Alias                        Meter3
+    Angle                        35
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Caption                      AMPS
+    Color                        CORNSILK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       160
+    LabelOffsetX                 15
+    LabelOffsetY                 15
+    Labels                       5
+    Left                         450
+    Maxvalue                     50
+    Minvalue                     0
+    NeedleColor                  BLACK
+    NeedleWidth                  2
+    Scale.Color1                 BLACK
+    Scale.Color2                 BLACK
+    Scale.Color3                 BLACK
+    Scale.Enlarge                5
+    Scale.Heightmax              25
+    Scale.Heightmin              15
+    Scale.Percent1               40
+    Scale.Percent2               40
+    Scale.Ticks                  51
+    Scale.Visible                Yes
+    Spacing                      28
+    Top                          160
+    Width                        330
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings7
+    Alias                        Strings7
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       25
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI Semibold'
+    Font.Opaque                  Yes
+    Font.Size                    20
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         435
+    Strings                      'EPD Transformer Primary Current Channel 6\n'
+    StringsStyle                 Message
+    Top                          105
+    Width                        360
+    OnChanged                    ''
+end
+LedDigits
+    Name                         Leddigits4
+    Alias                        Leddigits4
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       100
+    LeadingZero                  No
+    Left                         85
+    OutlineColor                 BLACK
+    Palette.High                 YELLOW
+    Palette.Low                  BLACK
+    Top                          360
+    Width                        200
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits5
+    Alias                        Leddigits5
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       100
+    LeadingZero                  No
+    Left                         515
+    OutlineColor                 BLACK
+    Palette.High                 YELLOW
+    Palette.Low                  BLACK
+    Top                          360
+    Width                        200
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Form
+    Name                         Form4
+    Alias                        Form4
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton9
+    Alias                        Winbutton9
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Back
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Symbol'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          18
+    Width                        120
+    OnChanged                    Form0Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Meter
+    Name                         Meter4
+    Alias                        Meter4
+    Angle                        35
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Caption                      'Drain Voltage'
+    Color                        GHOSTWHITE
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Symbol'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       160
+    LabelOffsetX                 15
+    LabelOffsetY                 15
+    Labels                       5
+    Left                         20
+    Maxvalue                     200
+    Minvalue                     0
+    NeedleColor                  BLACK
+    NeedleWidth                  2
+    Scale.Color1                 BLACK
+    Scale.Color2                 BLACK
+    Scale.Color3                 BLACK
+    Scale.Enlarge                5
+    Scale.Heightmax              25
+    Scale.Heightmin              15
+    Scale.Percent1               50
+    Scale.Percent2               50
+    Scale.Ticks                  51
+    Scale.Visible                Yes
+    Spacing                      28
+    Top                          160
+    Width                        330
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings8
+    Alias                        Strings8
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI'
+    Font.Opaque                  Yes
+    Font.Size                    20
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         5
+    Strings                      'Drain Voltage Channel 7'
+    StringsStyle                 Message
+    Top                          105
+    Width                        350
+    OnChanged                    ''
+end
+LedDigits
+    Name                         Leddigits6
+    Alias                        Leddigits6
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       100
+    LeadingZero                  No
+    Left                         85
+    OutlineColor                 BLACK
+    Palette.High                 FUCHSIA
+    Palette.Low                  BLACK
+    Top                          360
+    Width                        200
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Meter
+    Name                         Meter5
+    Alias                        Meter5
+    Angle                        35
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Caption                      'Gate Voltage'
+    Color                        GHOSTWHITE
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Historic'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       160
+    LabelOffsetX                 15
+    LabelOffsetY                 15
+    Labels                       5
+    Left                         450
+    Maxvalue                     50
+    Minvalue                     0
+    NeedleColor                  BLACK
+    NeedleWidth                  2
+    Scale.Color1                 BLACK
+    Scale.Color2                 BLACK
+    Scale.Color3                 BLACK
+    Scale.Enlarge                5
+    Scale.Heightmax              25
+    Scale.Heightmin              15
+    Scale.Percent1               40
+    Scale.Percent2               40
+    Scale.Ticks                  51
+    Scale.Visible                Yes
+    Spacing                      28
+    Top                          160
+    Width                        330
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings9
+    Alias                        Strings9
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI'
+    Font.Opaque                  Yes
+    Font.Size                    20
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         435
+    Strings                      'Gate Voltage Channel 8'
+    StringsStyle                 Message
+    Top                          105
+    Width                        350
+    OnChanged                    ''
+end
+LedDigits
+    Name                         Leddigits7
+    Alias                        Leddigits7
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       100
+    LeadingZero                  No
+    Left                         515
+    OutlineColor                 BLACK
+    Palette.High                 FUCHSIA
+    Palette.Low                  BLACK
+    Top                          360
+    Width                        200
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Form
+    Name                         Form5
+    Alias                        Form5
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton10
+    Alias                        Winbutton10
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      Back
+    Color                        clGray
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Symbol'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       50
+    Left                         340
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          420
+    Width                        150
+    OnChanged                    Form0Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings1
+    Alias                        Strings1
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       407
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Segoe UI'
+    Font.Opaque                  Yes
+    Font.Size                    17
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         4
+    Strings                      'The database look-up-tables for RF power are inaccurate since I was still developing the calibration code when the project got canceled. Therefore, there remains a task to repeat slug calibration using a USB digital watt meter NIST reference source to formally characterize this meter''s accuracy, repeat-ability, reproducibility, and readability.\n\nNo measuring instrument is 100% accurate and every watt meter is really just a clone of some reference meter that has a NTEP seal and NIST classification. I briefly borrowed an LP-100A digital watt meter but I did not get a chance to do any testing to verifying the voltage-to-watt calibration tables this software is using. Bird Technologies offers the Model 5014 Dual Line Section, which contains a USB port yielding digitized access to analog RF power measurement data.  Another brand, WaveNode, offers a USB interface to sensors capable of handling up to 8,000 watts. What is remarkable about USB software-based watt meters is their accuracy is traceable to National Institute of Standards and Technology (NIST).\n\nThis 8 channel demo is a scaled-down version of a future production model which will handles 32 sensor channels and 4 independent TFT LCD displays. There are two micro SD card memories: The first uSD card is located in underneath the Raspberry Pi Model 2 and it contains 1.) Windows 10 for IoT Version 10586.0.151029-1700, 2.) Version 1.4 Beta Metering  Framework, and 3.) a relational database to support meter persistence. The second uSD card is located behind the 4D Display and it contains the 4D Systems user interface for this demo. With an internet connection, the Raspberry Pi can be booted into Headed-Mode thereby allowing an HDMI monitor, keyboard and mouse to be hooked up. Headed-Mode facilitates editing the ADC board and channel configurations, routing, units-of-measure, input voltage -to- meter scale mapping and specifying transfer functions for things like thermistors. Most important is the RF power element calibration voltage and power data stored in also in the relational database on uSD.  \n\nNever touch the Raspberry Pi boards and never touch 4D Display without an ESD grounded wrist strap. Failure to follow this rule can damage the system. Never remove power from the Raspberry Pi. Instead select the Shut Down Host option from the main menu and then wait. This software is for demonstration purposes only.                                                     \n'
+    StringsStyle                 Book
+    Top                          8
+    Width                        790
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext15
+    Alias                        Statictext15
+    AutoSize                     Yes
+    Caption                      'Copyright (c) 2016  Michael Dorough'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       35
+    Left                         4
+    Top                          428
+    Transparent                  Yes
+    Width                        275
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext16
+    Alias                        Statictext16
+    AutoSize                     Yes
+    Caption                      'Meter Framework Beta 1.4'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Segoe UI Semibold'
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       35
+    Left                         604
+    Top                          428
+    Transparent                  Yes
+    Width                        190
+    WordWrap                     Yes
+end
