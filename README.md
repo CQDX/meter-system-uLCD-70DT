@@ -1,5 +1,5 @@
 # meter-system-uLCD-70DT
-A 4D Workshop user interface targetting a uLCD-70DT touch display. The user interface is comprised of menu of RF Power, Temperature, Power Supply Voltage and Current, and LDMOS Gate and Drain measurements.
+A 4D Workshop user interface for a uLCD-70DT touch display. The user interface is comprised of menu of RF Power, Temperature, Power Supply Voltage and Current, and LDMOS Gate and Drain measurements.
 
 <h2>Measurement Menu</h2>
 <img src="https://github.com/CQDX/meter-system-uLCD-70DT/blob/master/Meter-System-uLCD-70DT/MeterSystem.ImgData/Measurement%20Menu%20-%20Copy.png">
